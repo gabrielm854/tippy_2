@@ -75,6 +75,9 @@
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="UaF-fd-EZs"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tvX-jS-KKy">
                                 <rect key="frame" x="54" y="200" width="25" height="21"/>
@@ -93,6 +96,7 @@
                     <navigationItem key="navigationItem" title="Tippy, the tippiest tip calculator" id="7Sb-uw-juN"/>
                     <connections>
                         <outlet property="billField" destination="WpG-QN-f7D" id="NNl-nO-QKa"/>
+                        <outlet property="tipControl" destination="5ik-Xj-O6k" id="kC7-TD-n3o"/>
                         <outlet property="tipLabel" destination="uJf-VN-6ft" id="2Zx-rL-zgd"/>
                         <outlet property="totalLabel" destination="uTY-KU-hOw" id="acw-yQ-gRm"/>
                     </connections>
