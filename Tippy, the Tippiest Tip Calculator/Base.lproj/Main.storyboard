@@ -98,7 +98,7 @@
                         <outlet property="billField" destination="WpG-QN-f7D" id="NNl-nO-QKa"/>
                         <outlet property="tipControl" destination="5ik-Xj-O6k" id="kC7-TD-n3o"/>
                         <outlet property="tipLabel" destination="uJf-VN-6ft" id="2Zx-rL-zgd"/>
-                        <outlet property="totalLabel" destination="uTY-KU-hOw" id="acw-yQ-gRm"/>
+                        <outlet property="totalLabel" destination="uTY-KU-hOw" id="YQe-YV-Nyg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
